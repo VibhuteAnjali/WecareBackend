@@ -2,7 +2,7 @@
 import cv2
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from test_model import load_and_quantify_images, predict_health_status
+from test_model import predict_health_status
 from PIL import Image
 import numpy as np
 app = Flask(__name__)
