@@ -38,5 +38,8 @@ def process_image(file):
         return None
 
 
+
+def start():
+    return "Server Started"
 if __name__ == '__main__':
-    app.run(port=8000)
+    app.run(debug=True)
